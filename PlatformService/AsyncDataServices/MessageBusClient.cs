@@ -77,7 +77,7 @@ namespace PlatformService.AsyncDataServices
 
         private void RabbitMQ_ConnectionShutdown(object sender, ShutdownEventArgs e)
         {
-            Console.WriteLine("--> RabbtiMQ Connection Shutdown...");
+            Console.WriteLine("--> RabbitMQ Connection Shutdown...");
         }
     }
 }
