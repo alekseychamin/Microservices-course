@@ -45,6 +45,8 @@ metadata:
   name: rabbitmq-loadbalancer
 spec:
   type: LoadBalancer
+  externalIPs:
+  - 192.168.1.33
   selector:
     app: rabbitmq
   ports:
